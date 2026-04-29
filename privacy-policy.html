@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – JLPT N5 Japanese Study</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: #f6f8fa;
+      color: #24292f;
+      line-height: 1.7;
+      padding: 0 16px 60px;
+    }
+
+    /* ── Header ── */
+    .hero {
+      background: linear-gradient(135deg, #1a1f36 0%, #0d1117 100%);
+      color: #fff;
+      text-align: center;
+      padding: 56px 24px 48px;
+      margin: 0 -16px 40px;
+    }
+
+    .hero-icon {
+      font-size: 56px;
+      margin-bottom: 16px;
+    }
+
+    .hero h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+    }
+
+    .hero .app-name {
+      font-size: 15px;
+      color: rgba(255,255,255,0.55);
+      margin-bottom: 20px;
+    }
+
+    .hero .updated {
+      display: inline-block;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 13px;
+      color: rgba(255,255,255,0.7);
+    }
+
+    /* ── Layout ── */
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    /* ── Summary cards ── */
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-bottom: 40px;
+    }
+
+    .summary-card {
+      background: #fff;
+      border: 1px solid #d0d7de;
+      border-radius: 10px;
+      padding: 18px 16px;
+      text-align: center;
+    }
+
+    .summary-card .icon { font-size: 28px; margin-bottom: 8px; }
+    .summary-card .label { font-size: 13px; font-weight: 600; color: #24292f; margin-bottom: 4px; }
+    .summary-card .value { font-size: 12px; color: #57606a; }
+
+    .card-green  { border-top: 3px solid #2da44e; }
+    .card-blue   { border-top: 3px solid #0969da; }
+    .card-purple { border-top: 3px solid #8250df; }
+    .card-orange { border-top: 3px solid #bc4c00; }
+
+    /* ── Sections ── */
+    .section {
+      background: #fff;
+      border: 1px solid #d0d7de;
+      border-radius: 10px;
+      padding: 28px 28px 24px;
+      margin-bottom: 20px;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid #eaeef2;
+    }
+
+    .section-icon {
+      width: 38px;
+      height: 38px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+
+    .icon-green  { background: #dafbe1; }
+    .icon-blue   { background: #ddf4ff; }
+    .icon-purple { background: #fbefff; }
+    .icon-orange { background: #fff1e5; }
+    .icon-red    { background: #ffebe9; }
+    .icon-gray   { background: #f6f8fa; }
+
+    .section h2 {
+      font-size: 17px;
+      font-weight: 700;
+      color: #24292f;
+    }
+
+    .section p {
+      font-size: 15px;
+      color: #57606a;
+      margin-bottom: 12px;
+    }
+
+    .section p:last-child { margin-bottom: 0; }
+
+    .section ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+
+    .section ul li {
+      font-size: 15px;
+      color: #57606a;
+      margin-bottom: 6px;
+    }
+
+    /* ── Highlight box ── */
+    .highlight {
+      background: #dafbe1;
+      border: 1px solid #aceebb;
+      border-radius: 8px;
+      padding: 14px 16px;
+      font-size: 14px;
+      color: #1a7f37;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .highlight-icon { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
+
+    /* ── Contact box ── */
+    .contact-box {
+      background: #f6f8fa;
+      border: 1px solid #d0d7de;
+      border-radius: 8px;
+      padding: 16px;
+      margin-top: 12px;
+    }
+
+    .contact-box p { margin-bottom: 6px; font-size: 14px; color: #57606a; }
+    .contact-box a { color: #0969da; text-decoration: none; }
+    .contact-box a:hover { text-decoration: underline; }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 13px;
+      color: #8c959f;
+    }
+
+    footer a { color: #0969da; text-decoration: none; }
+
+    /* ── Responsive ── */
+    @media (max-width: 480px) {
+      .hero h1 { font-size: 22px; }
+      .section { padding: 20px 16px; }
+      .summary-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="hero-icon">🔒</div>
+    <h1>Privacy Policy</h1>
+    <div class="app-name">JLPT N5 Japanese Study App</div>
+    <span class="updated">Last updated: April 29, 2026</span>
+  </div>
+
+  <div class="container">
+
+    <!-- Summary cards -->
+    <div class="summary-grid">
+      <div class="summary-card card-green">
+        <div class="icon">🚫</div>
+        <div class="label">No Data Collected</div>
+        <div class="value">We collect zero personal information</div>
+      </div>
+      <div class="summary-card card-blue">
+        <div class="icon">📡</div>
+        <div class="label">Fully Offline</div>
+        <div class="value">Works without internet connection</div>
+      </div>
+      <div class="summary-card card-purple">
+        <div class="icon">🍪</div>
+        <div class="label">No Cookies</div>
+        <div class="value">No tracking or analytics</div>
+      </div>
+      <div class="summary-card card-orange">
+        <div class="icon">📢</div>
+        <div class="label">No Ads</div>
+        <div class="value">Ad-free experience</div>
+      </div>
+    </div>
+
+    <!-- 1. Introduction -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon icon-blue">📋</div>
+        <h2>1. Introduction</h2>
+      </div>
+      <p>
+        Welcome to <strong>JLPT N5 Japanese Study</strong> ("the App", "we", "our"). This Privacy Policy
+        explains how we handle information when you use our mobile application available on Google Play.
+      </p>
+      <p>
+        We are committed to protecting your privacy. This policy is straightforward because
+        <strong>we do not collect, store, or process any personal data</strong> from our users.
+      </p>
+    </div>
+
+    <!-- 2. Information We Do NOT Collect -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon icon-green">✅</div>
+        <h2>2. Information We Do NOT Collect</h2>
+      </div>
+      <div class="highlight">
+        <span class="highlight-icon">✓</span>
+        <span>The App does not collect any personal information whatsoever.</span>
+      </div>
+      <p>Specifically, we do <strong>not</strong> collect:</p>
+      <ul>
+        <li>Name, email address, phone number, or any contact information</li>
+        <li>Device identifiers, IP addresses, or location data</li>
+        <li>Usage statistics, analytics, or behavioural data</li>
+        <li>Crash reports or diagnostic data sent to our servers</li>
+        <li>Payment information or financial data</li>
+        <li>Photos, camera, microphone, or any device sensor data</li>
+        <li>Contacts, calendar, or any other device content</li>
+      </ul>
+    </div>
+
+    <!-- 3. How the App Works -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon icon-purple">⚙️</div>
+        <h2>3. How the App Works</h2>
+      </div>
+      <p>
+        JLPT N5 Japanese Study is a <strong>fully offline application</strong>. All learning content —
+        including vocabulary, grammar patterns, reading passages, and quiz questions — is bundled
+        directly within the App and stored locally on your device.
+      </p>
+      <p>
+        The App does not communicate with any external server, cloud service, or third-party API.
+        No data leaves your device at any time.
+      </p>
+      <ul>
+        <li><strong>Vocabulary:</strong> 800 N5 words stored locally</li>
+        <li><strong>Grammar:</strong> 50 patterns stored locally</li>
+        <li><strong>Reading:</strong> 10 passages stored locally</li>
+        <li><strong>Quiz:</strong> 100 questions stored locally</li>
+      </ul>
+    </div>
+
+    <!-- 4. Internet Permission -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon icon-orange">🌐</div>
+        <h2>4. Internet Permission</h2>
+      </div>
+      <p>
+        The App requests the <code>INTERNET</code> permission in its Android manifest. This permission
+        is required by the underlying WebView technology (Capacitor) used to render the App's interface.
+      </p>
+      <p>
+        <strong>However, the App makes no outbound network requests.</strong> The permission is declared
+        as a technical requirement of the framework and is not used to transmit any data.
+      </p>
+    </div>
+
+    <!-- 5. Third-Party Services -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon icon-gray">🔗</div>
+        <h2>5. Third-Party Services</h2>
+      </div>
+      <p>
+        The App does <strong>not</strong> integrate any third-party services, including:
+      </p>
+      <ul>
+        <li>Analytics platforms (e.g. Google Analytics, Firebase Analytics)</li>
+        <li>Advertising networks (e.g. AdMob, Meta Audience Network)</li>
+        <li>Crash reporting tools (e.g. Crashlytics, Sentry)</li>
+        <li>Social media SDKs (e.g. Facebook, Twitter)</li>
+        <li>Cloud storage or database services</li>
+      </ul>
+      <p>
+        The only third-party component used is <strong>Capacitor</strong> (an open-source framework
+        by Ionic), which is used solely to package the web application as a native Android app.
+        Capacitor does not collect or transmit user data.
+      </p>
+    </div>
+
+    <!-- 6. Data Storage -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon icon-blue">💾</div>
+        <h2>6. Local Data Storage</h2>
+      </div>
+      <p>
+        The App may store minimal data locally on your device, such as your selected display language
+        (Traditional Chinese, Simplified Chinese, or English) and the current quiz session state.
+        This data:
+      </p>
+      <ul>
+        <li>Is stored only on your device</li>
+        <li>Is never transmitted to any server</li>
+        <li>Can be cleared at any time by uninstalling the App</li>
+        <li>Contains no personally identifiable information</li>
+      </ul>
+    </div>
+
+    <!-- 7. Children's Privacy -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon icon-green">👶</div>
+        <h2>7. Children's Privacy</h2>
+      </div>
+      <p>
+        The App is suitable for users of all ages, including children under 13. Because we do not
+        collect any personal information from any user, the App complies with the Children's Online
+        Privacy Protection Act (COPPA) and similar regulations worldwide.
+      </p>
+      <p>
+        Parents and guardians can allow children to use this App with confidence that no personal
+        data is collected or shared.
+      </p>
+    </div>
+
+    <!-- 8. Security -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon icon-purple">🛡️</div>
+        <h2>8. Security</h2>
+      </div>
+      <p>
+        Since the App does not collect or transmit any personal data, there is no risk of your
+        personal information being intercepted, breached, or misused through our App.
+      </p>
+      <p>
+        All App content is delivered as part of the App package itself, which is signed with a
+        secure cryptographic key and distributed through Google Play's secure infrastructure.
+      </p>
+    </div>
+
+    <!-- 9. Changes to This Policy -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon icon-orange">📝</div>
+        <h2>9. Changes to This Privacy Policy</h2>
+      </div>
+      <p>
+        We may update this Privacy Policy from time to time. Any changes will be reflected by
+        updating the "Last updated" date at the top of this page.
+      </p>
+      <p>
+        We encourage you to review this Privacy Policy periodically. Continued use of the App
+        after any changes constitutes your acceptance of the updated policy.
+      </p>
+      <p>
+        Since we do not collect contact information, we are unable to notify users directly of
+        policy changes. Please check this page for the latest version.
+      </p>
+    </div>
+
+    <!-- 10. Contact -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-icon icon-blue">✉️</div>
+        <h2>10. Contact Us</h2>
+      </div>
+      <p>
+        If you have any questions, concerns, or requests regarding this Privacy Policy or the App,
+        please contact us:
+      </p>
+      <div class="contact-box">
+        <p><strong>App Name:</strong> JLPT N5 Japanese Study</p>
+        <p><strong>Developer:</strong> SET STANDARD INTERNATIONAL APPLIED TECHNOLOGY</p>
+        <p><strong>Email:</strong> <a href="mailto:ivanng611@gmail.com">ivanng611@gmail.com</a></p>
+        <p><strong>Website:</strong> <a href="#">https://hi20260428.pixnet.net/blog</a></p>
+      </div>
+      <p style="margin-top:14px; font-size:14px; color:#57606a;">
+        We aim to respond to all enquiries within 5 business days.
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2026 JLPT Learning. All rights reserved.</p>
+      <p style="margin-top:6px;">
+        JLPT N5 Japanese Study &nbsp;·&nbsp; Version 1.0.0 &nbsp;·&nbsp;
+        <a href="#">Back to top ↑</a>
+      </p>
+    </footer>
+
+  </div>
+</body>
+</html>
